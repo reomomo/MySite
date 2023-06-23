@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #EC715F;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-box {
+  width: 1024px;
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.logo {
+  height: 70px;
+}
+
+.navbar {
+  margin-left: auto;
+}
+
+.nav-list {
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin:0 30px;
+  text-align: center;
+  line-height: 70px;
+}
