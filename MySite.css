@@ -274,6 +274,16 @@ header {
   padding-right: 0;
 }
 
+#back {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+#back img {
+  width: 50px;
+}
+
 footer {
   height: 60px;
   background-color: #EC715F;
@@ -488,47 +498,31 @@ footer {
     text-align: center;
   }
 
-  .Contact {
-    /*margin: 0 auto;*/
-    /*padding-bottom: 90px;*/
-    /*width: 100%;*/
-    /*text-align: center;*/
-  }
-
   .Contact .boxes {
-    /*margin: 0 auto;*/
     width: 90%;
     display: block;
-    /*text-align: center;*/
   }
 
   .Contact .boxes .box {
     margin: 0 auto;
     padding: 0;
     width: 90%;
-    /*text-align: center;*/
   }
 
   .contact-title1 {
-    /*font-size: 20px;*/
     text-align: center;
   }
 
   .contact-title2 {
-    /*margin-top: 20px;*/
-    /*font-size: 20px;*/
     text-align: center;
   }
 
   .contact-body {
-    /*padding-top: 5px;*/
     text-align: center;
   }
 
   .icon-name {
-    /*padding-bottom: 5px;*/
     padding-top: 20px;
-    /*font-size: 20px;*/
     text-align: center;
   }
 
@@ -544,8 +538,5 @@ footer {
     text-align: center;
   }
 
-  /*.icons > i:last-child {*/
-  /*  padding-right: 0;*/
-  /*}*/
 
 }
